@@ -71,11 +71,17 @@ input {
     line-height: 26px;
     outline: none;
     white-space: nowrap;
+    transition: 0.5s ease background;
+}
+
+#login_button:hover {
+    background:#1283ed;
 }
 
 .login_container {
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 
-    0 15px 12px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 8px 21px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 8px 21px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 21px 1px rgba(0,0,0,0.1);
     background-color: #fafafa;
     border-radius: 5px;
     padding: 25px;
